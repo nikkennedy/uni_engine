@@ -1,0 +1,19 @@
+# Smoke
+
+TEXTURE SMOKEPARTICLE ALPHA 10 10 10 \\textures\\steamjetparticle.bmp
+
+TYPE        "smalltobig"
+
+HEIGHT      = 500
+MAXAGE      = 300
+
+WIDTH       = 600
+
+VELOCITY    = 0.001  -0.002 0.001
+ADDVELOCITY = 0      -0.002 0
+SUBVELOCITY = 0.0005 0     0.0005
+
+SRCBLEND    "GL_ONE"
+DSTBLEND    "GL_ONE"
+
+#END

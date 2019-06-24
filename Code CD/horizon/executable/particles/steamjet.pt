@@ -1,0 +1,32 @@
+# Steam Particle
+
+TEXTURE STEAMJET ALPHA 60 60 60 \\textures\steamjetparticle.bmp
+
+TYPE        "smalltobig"
+
+HEIGHT      = 200
+
+WIDTH       = 300
+
+# formular is addvelocity + (velocity * RAND) - subvelocity
+
+#VELOCITY     = 0.002  0.002  0.0004
+#ADDVELOCITY  = 0      -0.001      -0.0002
+#SUBVELOCITY  = 0      -0.01      0
+
+#VELOCITY    = 0.001  0.002 0.001
+#ADDVELOCITY = 0      0.002 0
+#SUBVELOCITY = 0.0005 0     0.0005
+
+VELOCITY    =  -0.002 0.001  0.001
+ADDVELOCITY =  -0.002 0      0
+SUBVELOCITY =  -0.002 0.0005 0.0005
+
+#ACCELERATION = 0.0 -0.000001 0.0
+
+MAXAGE      = 300
+
+SRCBLEND    "GL_ONE"
+DSTBLEND    "GL_ONE"
+
+#END

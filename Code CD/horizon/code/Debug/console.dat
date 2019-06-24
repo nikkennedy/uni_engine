@@ -1,0 +1,26 @@
+Horizon Engine v1.0 Created by NiK Kennedy 2003 (c)
+---------------------------------------------------
+Reading Configuration File: horizon.ini
+Completed.
+Initializing window with width 792, height 566
+Alpha Buffer 8 bits, Depth Buffer 24 bits, Stencil Buffer 8 bits
+OpenGL Vendor Name: NVIDIA Corporation
+Initializing OpenGL Extenstions
+Initialized GL_ARB_multitexture, all is well.
+Texture Manager created.
+Allocated space for 500 particle systems.
+Update Screen Size: Width 792, Height 566
+Initializing the Input
+DXInput Setup completed.
+Starting the AI unit
+AI UNIT is starting up...
+Entering the animation loop.
+Flushed A.I. system
+GAME UNIT not handling callback with ID 2
+GAME UNIT not handling callback with ID 3
+There are 2 nodes
+GAME UNIT not handling callback with ID 4
+Total Lightmaps is 298
+Loaded BSP file c:\horizonlevels\arena.lbsp
+Loaded 5 waypoint positions.
+Loaded 3 waypoint chains.

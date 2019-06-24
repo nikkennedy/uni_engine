@@ -1,0 +1,110 @@
+# ---------------------------------------------------------------
+# BSP ARENA Level Definition File
+# All the paths are relative to the base path set in horizon.ini
+# ---------------------------------------------------------------
+
+# ---------------------------------------------------------------
+# use this BSP file (this must be the first thing in this file)
+# ---------------------------------------------------------------
+USEBSP arena.lbsp
+
+# ---------------------------------------------------------------
+# Players start position
+# ---------------------------------------------------------------
+STARTPOS -168 10 -44
+
+# ---------------------------------------------------------------
+# Add the particle systems required
+# ---------------------------------------------------------------
+ADDPARTICLES 60 -50 27 36  \\particles\\whitefountain.pt
+ADDPARTICLES 60  57 2 -107 \\particles\\whitefountain.pt
+ADDPARTICLES 60 -99 2 -120 \\particles\\whitefountain.pt
+ADDPARTICLES 60 143 2 -23  \\particles\\whitefountain.pt
+
+# ---------------------------------------------------------------
+# Now add some Bot waypoints (WAYPOINT no. posx posy posz)
+# ---------------------------------------------------------------
+WAYPOINT 0 -120.0 10.0  120.0 
+WAYPOINT 1  120.0 10.0  120.0 
+WAYPOINT 2  120.0 10.0 -160.0 
+WAYPOINT 3 -120.0 10.0 -160.0 
+
+WAYPOINT 4    0.0 10.0  -40.0 
+
+WAYPOINT 5    -77 10 -118
+WAYPOINT 6    -22 10 -118
+WAYPOINT 7    -22 10 -84
+WAYPOINT 8    -77 10 -84
+
+WAYPOINT 9     76 10 -138
+WAYPOINT 10   112 10 -138
+WAYPOINT 11   112 10 -89
+WAYPOINT 12    76 10 -89
+
+WAYPOINT 13    73 10 -9
+WAYPOINT 14   129 10 -9
+WAYPOINT 15   129 10 26
+WAYPOINT 16    73 10 26
+
+WAYPOINT 17  -169 10 52
+WAYPOINT 18   -60 10 52
+WAYPOINT 19   -60 10 103
+WAYPOINT 20  -169 10 103
+
+WAYPOINT 21  0.0 10.0 -60.0
+
+# ---------------------------------------------------------------
+# Now need to chain waypoints (WAYPOINTCHAIN no. number_of_points <list of points>)
+# ---------------------------------------------------------------
+WAYPOINTCHAIN 0 4 0 1 2 3 
+WAYPOINTCHAIN 1 2 0 2
+WAYPOINTCHAIN 2 2 4 21
+WAYPOINTCHAIN 3 4 5 6 7 8
+WAYPOINTCHAIN 4 4 9 10 11 12
+WAYPOINTCHAIN 5 4 13 14 15 16
+WAYPOINTCHAIN 6 4 17 18 19 20
+ 
+# ---------------------------------------------------------------
+# Now add a bot or two (NEWBOT botname startx starty startz waypointchain_no.)
+# ---------------------------------------------------------------
+NEWBOT \\objects\\pmarine\\ usmc.bmp     -120.0 10.0  120.0 0.0 0.0 0.0   0
+NEWBOT \\objects\\pmarine\\ usmc.bmp      -77.0 10.0 -118.0 0.0 0.0 0.0   3
+NEWBOT \\objects\\pmarine\\ usmc.bmp       73   10     -9   0.0 0.0 0.0   5
+
+NEWBOT \\objects\\marvin\\  marvin.bmp     76   10   -138   0.0 180.0 0.0 4
+NEWBOT \\objects\\marvin\\  marvin.bmp   -169   10     52   0.0 180.0 0.0 6
+NEWBOT \\objects\\marvin\\  marvin.bmp    120.0 10.0 -140.0 0.0 180.0 0.0 1
+NEWBOT \\objects\\marvin\\  marvin.bmp    120.0 10.0 -140.0 0.0 180.0 0.0 1
+NEWBOT \\objects\\marvin\\  marvin.bmp    120.0 10.0 -140.0 0.0 180.0 0.0 1
+
+NEWBOT \\objects\\knight\\  knight.bmp      0.0 10.0  -40.0 0.0   0.0 0.0 2
+
+# ---------------------------------------------------------------
+# add ammo packs
+# ---------------------------------------------------------------
+AMMO -52.4 30 20.6
+
+# ---------------------------------------------------------------
+# add orbs to collect
+# ---------------------------------------------------------------
+TOTALORBS 13
+ORB   21    2  -40
+ORB   99    2    0
+ORB  106    2   87
+ORB  -94    2   76
+ORB  -52    2 -112
+ORB  104    2 -114
+ORB -156    2  -42
+ORB  140    2 -153
+ORB  -26.4 25 -75.5
+ORB -120.0 10.0  120.0 
+ORB  120.0 10.0  120.0 
+ORB  120.0 10.0 -160.0 
+ORB -120.0 10.0 -160.0 
+
+# ---------------------------------------------------------------
+# health packs
+# ---------------------------------------------------------------
+HEALTHPACK 14 2 -38
+
+#END

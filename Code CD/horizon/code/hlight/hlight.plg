@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hlight - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\NiK\LOCALS~1\Temp\RSP8B1.tmp" with contents
+[
+/nologo /G6 /Gr /ML /W3 /GX /O2 /I "E:\Stuff\working\horizon\hlight\include" /I "E:\Stuff\working\horizon\global\include" /I "E:\Stuff\working\horizon\render\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/hlight.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Stuff\working\horizon\hlight\src\hlight.cpp"
+"E:\Stuff\working\horizon\hlight\src\lightmap_gen.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NiK\LOCALS~1\Temp\RSP8B1.tmp" 
+Creating temporary file "C:\DOCUME~1\NiK\LOCALS~1\Temp\RSP8B2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/hlight.pdb" /machine:I386 /out:"Release/hlight.exe" 
+.\Release\hlight.obj
+.\Release\lightmap_gen.obj
+.\Release\ase_parse.obj
+.\Release\debug.obj
+.\Release\hrz_parse.obj
+.\Release\lbsp.obj
+.\Release\maths.obj
+.\Release\p_list.obj
+.\Release\parse.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\NiK\LOCALS~1\Temp\RSP8B2.tmp"
+<h3>Output Window</h3>
+Compiling...
+hlight.cpp
+E:\Stuff\working\horizon\global\include\console.h(32) : warning C4096: '__cdecl' must be used with '...'
+E:\Stuff\working\horizon\global\include\debug.h(49) : warning C4096: '__cdecl' must be used with '...'
+E:\Stuff\working\horizon\global\include\parse.h(38) : warning C4096: '__cdecl' must be used with '...'
+E:\Stuff\working\horizon\hlight\src\hlight.cpp(27) : warning C4007: 'main' : must be '__cdecl'
+lightmap_gen.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+hlight.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,507 @@
+# Microsoft Developer Studio Generated Dependency File, included by render.mak
+
+.\src\collisiondetection.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_config.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\ogl.h"\
+	".\include\ogl_particlesystem.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\console.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\ogl.h"\
+	".\include\ogl_particlesystem.h"\
+	".\include\ogl_texturemanager.h"\
+	".\include\render_api.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\files.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\hrz_config.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\hrz_config.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\hrz_parse.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\light.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\image.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\image.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\init.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\ogl.h"\
+	".\include\ogl_particlesystem.h"\
+	".\include\render_api.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\lightmap.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\vert3d.h"\
+	".\include\texture.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\GL\GLEXT.H"\
+	
+
+..\global\src\object.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_config.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\ogl_ext.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\ogl.h"\
+	".\include\ogl_particlesystem.h"\
+	".\include\render_api.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\ogl_util.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\ogl.h"\
+	".\include\ogl_particlesystem.h"\
+	".\include\render_api.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\ogl_vp.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_config.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	"..\horizon\include\bullet.h"\
+	"..\horizon\include\game.h"\
+	"..\horizon\include\global.h"\
+	"..\horizon\include\render.h"\
+	".\include\files.h"\
+	".\include\ogl.h"\
+	".\include\ogl_particlesystem.h"\
+	".\include\render_api.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\GL\GLEXT.H"\
+	"c:\program files\nvidia corporation\nvidia opengl sdk\include\glh\gl\wglext.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\glh_extensions.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\glh_genext.h"\
+	"c:\program files\nvidia corporation\nvidia opengl sdk\include\glh\glh_linear.h"\
+	"c:\program files\nvidia corporation\nvidia opengl sdk\include\glh\glh_obs.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\shared\NVPARSE.H"\
+	
+
+..\global\src\p_list.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\parse.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\ase.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\debug.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\enemy.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\maths.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\ogl_particlesystem.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\ogl.h"\
+	".\include\ogl_particlesystem.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\GL\GLEXT.H"\
+	"c:\program files\nvidia corporation\nvidia opengl sdk\include\glh\gl\wglext.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\glh_extensions.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\glh_genext.h"\
+	
+
+..\global\src\particlesystem.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\ogl.h"\
+	".\include\ogl_particlesystem.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\ogl.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_config.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\ogl.h"\
+	".\include\ogl_particlesystem.h"\
+	".\include\ogl_texturemanager.h"\
+	".\include\render_api.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\GL\GLEXT.H"\
+	"c:\program files\nvidia corporation\nvidia opengl sdk\include\glh\gl\wglext.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\glh_extensions.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\glh_genext.h"\
+	"c:\program files\nvidia corporation\nvidia opengl sdk\include\glh\glh_linear.h"\
+	"c:\program files\nvidia corporation\nvidia opengl sdk\include\glh\glh_obs.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\shared\NVPARSE.H"\
+	
+
+.\src\rend.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\lbsp.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\alphatexture.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\hrz_config.h"\
+	"..\global\include\image.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	".\include\alphatexture.h"\
+	".\include\texture.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\GL\GLEXT.H"\
+	
+
+.\src\basictexture.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\image.h"\
+	"..\global\include\vert3d.h"\
+	".\include\basictexture.h"\
+	".\include\texture.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\GL\GLEXT.H"\
+	
+
+.\src\ogl_texturemanager.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\vert3d.h"\
+	".\include\alphatexture.h"\
+	".\include\basictexture.h"\
+	".\include\ogl_texturemanager.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\texture.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\hrz_config.h"\
+	"..\global\include\image.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	".\include\texture.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	"C:\Program Files\NVIDIA Corporation\NVIDIA OpenGL SDK\include\glh\GL\GLEXT.H"\
+	
+
+..\global\src\md2.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\vert3d.h"\
+	".\include\ogl_texturemanager.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\ogl_md2_renderer.cpp : \
+	"..\global\include\ase.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\dxstuff.h"\
+	"..\global\include\enemy.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\image.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\md2.h"\
+	"..\global\include\object.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\particle.h"\
+	"..\global\include\particlesystem.h"\
+	"..\global\include\vert3d.h"\
+	".\include\ogl.h"\
+	".\include\ogl_particlesystem.h"\
+	".\include\ogl_texturemanager.h"\
+	".\include\texture.h"\
+	".\include\texturemanager.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	

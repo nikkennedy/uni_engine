@@ -1,0 +1,22 @@
+# Falling steam Particles
+
+TEXTURE STEAMPARTICLE ALPHA 150 150 20 \\textures\\steamjetparticle.bmp
+
+DEPTHTEST   ON
+
+TYPE        "smalltobig"
+
+HEIGHT      = 500
+
+MAXAGE      = 150
+
+WIDTH       = 300
+
+VELOCITY    = 0.001  -0.01 0.001
+ADDVELOCITY = 0      -0.01 0
+SUBVELOCITY = 0.0005 0     0.0005
+
+SRCBLEND    "GL_SRC_COLOR"
+DSTBLEND    "GL_ZERO"
+
+#END

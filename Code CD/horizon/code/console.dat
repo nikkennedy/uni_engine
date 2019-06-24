@@ -1,0 +1,93 @@
+Horizon Engine v1.0 Created by NiK Kennedy 2003 (c)
+---------------------------------------------------
+Reading Configuration File: horizon.ini
+Path to data is: c:\horizon
+Completed.
+Initializing window with width 800, height 600
+Alpha Buffer 8 bits, Depth Buffer 24 bits, Stencil Buffer 8 bits
+OpenGL Vendor Name: NVIDIA Corporation
+Initializing OpenGL Extenstions
+Initialized GL_ARB_multitexture, all is well.
+Texture Manager created.
+Allocated space for 500 particle systems.
+Update Screen Size: Width 800, Height 600
+Initializing the Input
+DXInput Setup completed.
+Starting the AI unit
+AI UNIT is starting up...
+DATA PATH IS c:\horizon
+Entering the animation loop.
+Flushed A.I. system
+GAME UNIT not handling callback with ID 2 at the moment
+GAME UNIT not handling callback with ID 3 at the moment
+There are 2 nodes
+GAME UNIT not handling callback with ID 4 at the moment
+Total Lightmaps is 298
+Loaded BSP file :c:\horizon\textures\bsploaded.bmp
+Added particle system \\particles\\whitefountain.pt
+Added particle system \\particles\\whitefountain.pt
+Added particle system \\particles\\whitefountain.pt
+Added particle system \\particles\\whitefountain.pt
+Bots waypoints are: 
+WayPoint: -120.00, 10.00, 120.00 Wait and Turn
+WayPoint: 120.00, 10.00, 120.00 Wait and Turn
+WayPoint: 120.00, 10.00, -160.00 Wait and Turn
+WayPoint: -120.00, 10.00, -160.00 Wait and Turn
+AI Unit: new bot has been added (startpos = -120.000000,10.000000,120.000000).
+Bots waypoints are: 
+WayPoint: -77.00, 10.00, -118.00 Wait and Turn
+WayPoint: -22.00, 10.00, -118.00 Wait and Turn
+WayPoint: -22.00, 10.00, -84.00 Wait and Turn
+WayPoint: -77.00, 10.00, -84.00 Wait and Turn
+AI Unit: new bot has been added (startpos = -77.000000,10.000000,-118.000000).
+Bots waypoints are: 
+WayPoint: -120.00, 10.00, 120.00 Wait and Turn
+WayPoint: 120.00, 10.00, 120.00 Wait and Turn
+WayPoint: 120.00, 10.00, -160.00 Wait and Turn
+WayPoint: -120.00, 10.00, -160.00 Wait and Turn
+AI Unit: new bot has been added (startpos = -120.000000,10.000000,120.000000).
+Bots waypoints are: 
+WayPoint: 73.00, 10.00, -9.00 Wait and Turn
+WayPoint: 129.00, 10.00, -9.00 Wait and Turn
+WayPoint: 129.00, 10.00, 26.00 Wait and Turn
+WayPoint: 73.00, 10.00, 26.00 Wait and Turn
+AI Unit: new bot has been added (startpos = 73.000000,10.000000,-9.000000).
+Bots waypoints are: 
+WayPoint: -120.00, 10.00, 120.00 Wait and Turn
+WayPoint: 120.00, 10.00, 120.00 Wait and Turn
+WayPoint: 120.00, 10.00, -160.00 Wait and Turn
+WayPoint: -120.00, 10.00, -160.00 Wait and Turn
+AI Unit: new bot has been added (startpos = -120.000000,10.000000,120.000000).
+Bots waypoints are: 
+WayPoint: 76.00, 10.00, -138.00 Wait and Turn
+WayPoint: 112.00, 10.00, -138.00 Wait and Turn
+WayPoint: 112.00, 10.00, -89.00 Wait and Turn
+WayPoint: 76.00, 10.00, -89.00 Wait and Turn
+AI Unit: new bot has been added (startpos = 76.000000,10.000000,-138.000000).
+Bots waypoints are: 
+WayPoint: -169.00, 10.00, 52.00 Wait and Turn
+WayPoint: -60.00, 10.00, 52.00 Wait and Turn
+WayPoint: -60.00, 10.00, 103.00 Wait and Turn
+WayPoint: -169.00, 10.00, 103.00 Wait and Turn
+AI Unit: new bot has been added (startpos = -169.000000,10.000000,52.000000).
+Bots waypoints are: 
+WayPoint: -120.00, 10.00, 120.00 Wait and Turn
+WayPoint: 120.00, 10.00, -160.00 Wait and Turn
+AI Unit: new bot has been added (startpos = 120.000000,10.000000,-140.000000).
+Bots waypoints are: 
+WayPoint: -120.00, 10.00, 120.00 Wait and Turn
+WayPoint: 120.00, 10.00, -160.00 Wait and Turn
+AI Unit: new bot has been added (startpos = 120.000000,10.000000,-140.000000).
+Bots waypoints are: 
+WayPoint: -120.00, 10.00, 120.00 Wait and Turn
+WayPoint: 120.00, 10.00, -160.00 Wait and Turn
+AI Unit: new bot has been added (startpos = 120.000000,10.000000,-140.000000).
+Bots waypoints are: 
+WayPoint: 0.00, 10.00, -40.00 Wait and Turn
+AI Unit: new bot has been added (startpos = 0.000000,10.000000,-40.000000).
+Loaded 21 waypoint positions.
+Loaded 7 waypoint chains.
+Player was HIT
+Player was HIT
+Player was HIT
+Player was HIT

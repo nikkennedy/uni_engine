@@ -1,0 +1,21 @@
+# Fire Particle
+ 
+TEXTURE FIREPARTICLE INVIS 20 20 20 \\textures\\fireparticle.bmp
+
+DEPTHTEST   OFF
+
+TYPE        "agebased"
+
+HEIGHT      = 10
+WIDTH       = 2.5	
+
+MAXAGE      = 150
+
+VELOCITY    = 0.0 0.0 0.2
+ADDVELOCITY = 0.0 0.0 0.0
+SUBVELOCITY = 0.0 0.0 0.0
+
+SRCBLEND    "GL_ONE"
+DSTBLEND    "GL_ONE"
+
+#END

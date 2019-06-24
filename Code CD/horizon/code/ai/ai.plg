@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ai - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\NiK\LOCALS~1\Temp\RSPAE.tmp" with contents
+[
+/nologo /G6 /MDd /W3 /Gm /GX /ZI /Od /I "E:\Stuff\working\horizon\ai\include" /I "E:\Stuff\working\horizon\global\include" /I "E:\Stuff\working\horizon\render\include" /I "E:\Stuff\working\horizon\horizon\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "AI_EXPORTS" /Fp"Debug/ai.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Stuff\working\horizon\ai\src\aibase.cpp"
+"E:\Stuff\working\horizon\ai\src\aibasic.cpp"
+"E:\Stuff\working\horizon\ai\src\bot.cpp"
+"E:\Stuff\working\horizon\horizon\src\bullet.cpp"
+"E:\Stuff\working\horizon\global\src\hrz_config.cpp"
+"E:\Stuff\working\horizon\global\src\hrz_parse.cpp"
+"E:\Stuff\working\horizon\ai\src\init.cpp"
+"E:\Stuff\working\horizon\global\src\md2.cpp"
+"E:\Stuff\working\horizon\global\src\object.cpp"
+"E:\Stuff\working\horizon\global\src\parse.cpp"
+"E:\Stuff\working\horizon\global\src\particlesystem.cpp"
+"E:\Stuff\working\horizon\global\src\waypoint.cpp"
+"E:\Stuff\working\horizon\global\src\debug.cpp"
+"E:\Stuff\working\horizon\global\src\lbsp.cpp"
+"E:\Stuff\working\horizon\global\src\maths.cpp"
+"E:\Stuff\working\horizon\global\src\p_list.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\NiK\LOCALS~1\Temp\RSPAE.tmp" 
+Creating temporary file "C:\DOCUME~1\NiK\LOCALS~1\Temp\RSPAF.tmp" with contents
+[
+dxguid.lib dxerr9.lib dinput8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib /nologo /dll /incremental:yes /pdb:"Debug/gameai.pdb" /debug /machine:I386 /out:"../Debug/gameai.dll" /implib:"Debug/gameai.lib" /pdbtype:sept 
+.\Debug\aibase.obj
+.\Debug\aibasic.obj
+.\Debug\bot.obj
+.\Debug\bullet.obj
+.\Debug\hrz_config.obj
+.\Debug\hrz_parse.obj
+.\Debug\init.obj
+.\Debug\md2.obj
+.\Debug\object.obj
+.\Debug\parse.obj
+.\Debug\particlesystem.obj
+.\Debug\waypoint.obj
+.\Debug\debug.obj
+.\Debug\lbsp.obj
+.\Debug\maths.obj
+.\Debug\p_list.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\NiK\LOCALS~1\Temp\RSPAF.tmp"
+<h3>Output Window</h3>
+Compiling...
+aibase.cpp
+aibasic.cpp
+bot.cpp
+bullet.cpp
+hrz_config.cpp
+hrz_parse.cpp
+init.cpp
+md2.cpp
+object.cpp
+parse.cpp
+particlesystem.cpp
+waypoint.cpp
+debug.cpp
+lbsp.cpp
+maths.cpp
+p_list.cpp
+Linking...
+   Creating library Debug/gameai.lib and object Debug/gameai.exp
+
+
+
+<h3>Results</h3>
+gameai.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

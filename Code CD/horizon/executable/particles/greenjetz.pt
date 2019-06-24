@@ -1,0 +1,37 @@
+#----------------------------------------
+# Green Jet Effect used in WEDTEST level
+# By Nicholas Kennedy
+#----------------------------------------
+
+# Initialise the texture to use
+TEXTURE GREENJET INVIS 20 20 20 \\textures\\greenparticle.bmp
+
+# Depth Cull
+DEPTHTEST OFF
+
+# Small particles to big particles
+TYPE "agebased"
+
+# Maximum height the particles can reach
+HEIGHT = 3.0
+
+# Each particle lives this long
+MAXAGE = 100
+
+# Width of each particle
+WIDTH = 2.5
+
+# Velocity is up and out
+VELOCITY    =   0.0  0.0 0.8 
+ADDVELOCITY =  0.0  0.0 -0.4
+SUBVELOCITY =      0  0.0 0.0
+
+
+# Particles accelerate to the ground
+ACCELERATION = 0.0 0.0  0.0
+
+# Blending needed to achieve desired effect
+SRCBLEND "GL_ONE"
+DSTBLEND "GL_ONE"
+
+#END

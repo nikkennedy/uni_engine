@@ -1,0 +1,24 @@
+# Rocket Smoke Particle Effect
+
+TEXTURE SMOKEPARTICLE ALPHA 10 10 10 \\textures\\steamjetparticle.bmp
+
+DEPTHTEST   OFF
+
+TYPE        "bigtosmall"
+
+HEIGHT      = 2
+
+WIDTH       = 1
+
+DEATHTIME   = 50
+
+MAXAGE      = 50
+
+VELOCITY    =    0.4    0.4    0.4
+ADDVELOCITY =   -0.2   -0.2   -0.2
+SUBVELOCITY =      0      0      0
+
+SRCBLEND    "GL_ONE"
+DSTBLEND    "GL_ONE"
+
+#END

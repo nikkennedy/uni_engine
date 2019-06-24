@@ -1,0 +1,31 @@
+# Rocket Exploding Smoke Particle Effect
+
+TEXTURE EXPLODEPARTICLE ALPHA 120 80 40 \\textures\\steamjetparticle.bmp
+
+# Do you want depth testing enabled for the particle
+DEPTHTEST   ON
+
+# Do you go from big particles to small or from small to big
+TYPE        "bigtosmall"
+
+# Max Y the particle can go to
+HEIGHT      = 15
+
+# Maximum width of the particle
+WIDTH       = 2
+
+# Once this has counted down, the particle system is no longer
+# active.
+DEATHTIME   = 80
+
+# Maximum age of each particle
+MAXAGE      = 200
+
+VELOCITY    =  0.2  0.2  0.2
+ADDVELOCITY = -0.1 -0.1 -0.1
+SUBVELOCITY =  0  0  0
+
+SRCBLEND    "GL_ONE"
+DSTBLEND    "GL_ONE"
+
+#END

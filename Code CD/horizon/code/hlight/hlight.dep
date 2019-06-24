@@ -1,0 +1,93 @@
+# Microsoft Developer Studio Generated Dependency File, included by hlight.mak
+
+.\src\hlight.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	".\include\lightmap.h"\
+	".\include\lightmap_gen.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+.\src\lightmap_gen.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	".\include\lightmap.h"\
+	".\include\lightmap_gen.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\ase_parse.cpp : \
+	"..\global\include\ase_parse.h"\
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\light.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\debug.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\hrz_parse.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\hrz_parse.h"\
+	"..\global\include\light.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\lbsp.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\lbsp.h"\
+	"..\global\include\light.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\maths.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\maths.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\p_list.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\p_list.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	
+
+..\global\src\parse.cpp : \
+	"..\global\include\console.h"\
+	"..\global\include\debug.h"\
+	"..\global\include\parse.h"\
+	"..\global\include\vert3d.h"\
+	"c:\program files\dxsdk\include\basetsd.h"\
+	

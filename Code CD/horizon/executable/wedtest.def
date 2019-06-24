@@ -1,0 +1,89 @@
+# ---------------------------------------------------------------
+# BSP Level Definition File
+# All the paths are relative to the base path set in horizon.ini
+# ---------------------------------------------------------------
+
+# ---------------------------------------------------------------
+# use this BSP file (this must be the first thing in the file)
+# ---------------------------------------------------------------
+USEBSP wedtest.lbsp
+
+# ---------------------------------------------------------------
+# players start position
+# ---------------------------------------------------------------
+STARTPOS -25.5 10.0 136.1
+
+# ---------------------------------------------------------------
+# define the particle systems that are going to be used
+# ---------------------------------------------------------------
+ADDPARTICLES 10 -1.0 28 8.0      \\particles\\fireparticle.pt
+ADDPARTICLES 10 -203.7 28.8 142.3      \\particles\\fireparticle.pt
+ADDPARTICLES 40 -56.0 35.0 -73.0  \\particles\\fallbluesteam.pt
+ADDPARTICLES 40 -186.6 5.6 -43.4  \\particles\\greenjetx.pt
+ADDPARTICLES 40 -186.6 5.6 -43.4  \\particles\\greenjetz.pt
+ADDPARTICLES 40 -70.2 9.8 116.6  \\particles\\firejet.pt
+ADDPARTICLES 40 -116.2 9.8 116.6  \\particles\\firejet.pt
+ADDPARTICLES 40 -92.8 9.8 153.9  \\particles\\firejet2.pt
+ADDPARTICLES 40 -139.2 9.8 153.9  \\particles\\firejet2.pt
+
+# ---------------------------------------------------------------
+# Now add bot waypoints (WAYPOINT no. posx posy posz)
+# ---------------------------------------------------------------
+WAYPOINT 0 -48 10 4   
+WAYPOINT 1 49 10 4    
+WAYPOINT 2 49 10 -76  
+WAYPOINT 3 -48 10 -76 
+
+WAYPOINT 4 16 10 148 
+WAYPOINT 5 51 10 112 
+WAYPOINT 6 51 10 148 
+WAYPOINT 7 16 10 112 
+
+WAYPOINT 8  -182.94 10 137.6
+WAYPOINT 9  -182.94 10 -19.4
+WAYPOINT 10 -182.94 10 137.6
+WAYPOINT 11 -29.7   10 137.6
+
+WAYPOINT 12 36.2 10.0 60.2
+WAYPOINT 13 36.2 10.0 -22.0
+
+# ---------------------------------------------------------------
+# Waypoint Chains (WAYPOINTCHAIN no. number_of_points <list of points>)
+# ---------------------------------------------------------------
+WAYPOINTCHAIN 0 4 0 1 2 3
+WAYPOINTCHAIN 1 4 4 5 6 7
+WAYPOINTCHAIN 2 4 8 9 10 11
+WAYPOINTCHAIN 3 2 12 13
+
+# ---------------------------------------------------------------
+# Now add a bot (NEWBOT botname startx starty startz waypointchain_no.)
+# ---------------------------------------------------------------
+NEWBOT \\objects\\pmarine\\ usmc.bmp  -48    10     4     0.0 0.0 0.0 0
+NEWBOT \\objects\\pmarine\\ usmc.bmp   16    10   148     0.0 0.0 0.0 1
+NEWBOT \\objects\\pmarine\\ usmc.bmp -182.94 10.0 137.6   0.0 0.0 0.0 2
+NEWBOT \\objects\\pmarine\\ usmc.bmp   36.2  10.0  60.2   0.0 0.0 0.0 3
+
+# ---------------------------------------------------------------
+# add ammo packs
+# ---------------------------------------------------------------
+AMMO 35 4 -59
+
+# ---------------------------------------------------------------
+# health packs
+# ---------------------------------------------------------------
+HEALTHPACK 35.5 4 149
+
+# ---------------------------------------------------------------
+# add orbs to collect
+# ---------------------------------------------------------------
+TOTALORBS 8
+ORB  52 4 111
+ORB  15 4 111
+ORB  -170.8 4 -64.8
+ORB  -204.2 4 -64.8
+ORB -204.2 4 -11
+ORB -170.8 4 -11
+ORB -185.2 8 46
+ORB -29 4 139
+
+#END

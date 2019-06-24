@@ -1,0 +1,26 @@
+USEBSP demo.lbsp
+
+STARTPOS 0 10 0
+
+ADDPARTICLES 60 85.025 1.0 65.011 \\particles\\purplefountain.pt
+
+WAYPOINT 0 -80 10 -91
+WAYPOINT 1 100 10 -91
+WAYPOINT 2 100 10 91
+WAYPOINT 3 -80 10 91
+
+WAYPOINTCHAIN 0 4 0 1 2 3
+
+NEWBOT \\objects\\pmarine\\ usmc.bmp    -80 10 -91      0 0 0      0
+
+
+
+AMMO 0 4 0
+
+HEALTHPACK 100 4 -91
+
+TOTALORBS 1
+ORB  -80 4 91
+
+
+#END

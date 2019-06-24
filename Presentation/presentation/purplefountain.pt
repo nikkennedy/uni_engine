@@ -1,0 +1,33 @@
+# Initialise the texture to use
+TEXTURE PURPLEJET INVIS 20 20 20 \\textures\\purpleparticle.bmp
+
+# Depth Cull
+DEPTHTEST OFF
+
+# Small particles to big particles
+TYPE "smalltobig"
+
+# Maximum height the particles can reach
+HEIGHT = 50.0
+
+# Each particle lives this long
+MAXAGE = 500
+
+# Width of each particle
+WIDTH = 20.0
+
+
+# Velocity is up and out
+VELOCITY    =   0.08  0.4  0.08 
+ADDVELOCITY =  -0.04   0.0 -0.04
+SUBVELOCITY =      0    0    0
+
+
+# Particles accelerate to the ground
+ACCELERATION = 0.0 -0.0025  0.0
+
+# Blending needed to achieve desired effect
+SRCBLEND "GL_ONE"
+DSTBLEND "GL_ONE"
+
+#END

@@ -1,0 +1,7 @@
+USEBSP demo.lbsp
+
+STARTPOS 0 10 0
+
+ADDPARTICLES 60 85.025 1.0 65.011 \\particles\\purplefountain.pt
+
+#END

@@ -1,0 +1,22 @@
+# Falling blue steam Particles
+
+TEXTURE "BLUEFALLPARTICLE" ALPHA 0 0 50 \\textures\\steamjetparticle.bmp
+
+DEPTHTEST   OFF
+
+TYPE        "smalltobig"
+
+HEIGHT      = 5.0
+
+MAXAGE      = 300
+
+WIDTH       = 5.0
+
+VELOCITY    = 0.2  -0.1  0.05
+ADDVELOCITY = 0.0   0.0 -0.025
+SUBVELOCITY = 0.0     0.0    0.0
+
+SRCBLEND    "GL_ONE"
+DSTBLEND    "GL_ONE"
+
+#END
