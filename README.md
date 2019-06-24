@@ -3,3 +3,5 @@
 
 #### 
 This will run, but very quickly on a machine these days 
+
+Read "Presentation/3rd year project/usermanual.doc" if you want to know how to run the executable
